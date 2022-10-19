@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+//   border: 3px solid black;
+  background-color: #491579;
+}
+
+.welcomeScreen {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+//   border: 4px solid blue;
+  padding: 3%;
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #fffbe7;
+  border-radius: 13%;
+  box-shadow: 14px 15px 40px 1px rgb(49, 36, 49);
+}
+
+.welcomeScreen h2 {
+  font-family: 'Square Peg', cursive;
+}
+.image {
+  width: 50%; /* or any custom size */
+  height: 50%;
+  object-fit: contain;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+.eventSection .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 2%;
+}
+
+.button-wrapper button {
+  margin: 2%;
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active .button-63:hover {
+  outline: 0;
+}
+
+.eventSection p {
+  font-family: 'Square Peg', cursive;
+  font-size: larger;
+}
+
+
+#gameArea{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    // border: 4px solid blue;
+    padding: 3%;
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    
+    background-color: #fffbe7;
+    border-radius: 13%;
+    box-shadow: 14px 15px 40px 1px rgb(49, 36, 49);
+
+}
+ #gameArea h2{
+        font-family: 'Square Peg', cursive;
+    }
+
+
+    
+#newgameButton
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 2%;
+}
+
+#newgameButton button
+{
+    margin: 2%;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+#inputbox{
+    width: 10rem;
+    padding: 10px;
+    margin-top: 3%;
+}
+
+.stats{
+    font-family: 'Square Peg', cursive;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.info span{
+    color: red;
+}

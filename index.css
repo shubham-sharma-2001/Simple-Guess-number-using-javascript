@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #491579;
+}
+
+.welcomeScreen {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #fffbe7;
+  border-radius: 13%;
+  -webkit-box-shadow: 14px 15px 40px 1px #312431;
+          box-shadow: 14px 15px 40px 1px #312431;
+}
+
+.welcomeScreen h2 {
+  font-family: 'Square Peg', cursive;
+}
+
+.image {
+  width: 50%;
+  /* or any custom size */
+  height: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.eventSection .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 2%;
+}
+
+.button-wrapper button {
+  margin: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+          box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active .button-63:hover {
+  outline: 0;
+}
+
+.eventSection p {
+  font-family: 'Square Peg', cursive;
+  font-size: larger;
+}
+
+#gameArea {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3%;
+  width: 30%;
+  margin: auto;
+  margin-top: 4%;
+  background-color: #fffbe7;
+  border-radius: 13%;
+  -webkit-box-shadow: 14px 15px 40px 1px #312431;
+          box-shadow: 14px 15px 40px 1px #312431;
+}
+
+#gameArea h2 {
+  font-family: 'Square Peg', cursive;
+}
+
+#newgameButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 2%;
+}
+
+#newgameButton button {
+  margin: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+          box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#inputbox {
+  width: 10rem;
+  padding: 10px;
+  margin-top: 3%;
+}
+
+.stats {
+  font-family: 'Square Peg', cursive;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3rem;
+}
+
+.info span {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
